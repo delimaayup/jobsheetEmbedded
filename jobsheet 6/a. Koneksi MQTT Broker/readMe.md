@@ -4,9 +4,20 @@
   1.  Buka Node-Red
   2.  Kemudian buatlah tab baru untuk memulai membuat flow pemrograman backend-server menggunakan protokol MQTT.
   3.  Buatlah flow program seperti pada Gambar 6.1.
-<img width="352" alt="image" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/9827e8e6-1af6-4eed-b124-3bd82c31199a">
+![langkah-1](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/1245d44d-9929-47be-b278-100beb1c3c03)
+
+
   4. Konfigurasikan Temperature Node seperti Gambar di bawah ini.
 <img width="285" alt="image" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/7a200dc5-b942-4b89-a35f-813f086e3731">
+
+  5. Kemudian konfigurasikan Pub/Sub Node seperti pada Gambar 6.3. Klik pada tanda lingkaran merah untuk membuat koneksi dengan broker MQTT.
+<img width="286" alt="image" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/41d46294-b921-43a8-9579-d09fee7bbc30">
+
+   6. Setelah itu, konfigurasikan Broker Node seperti pada Gambar 6.4. Sesuaikan dengan broker server sebelumnya, agar tercipta koneksi. Perhatikan juga topic yang digunakan, agar pesan dapat dikirim pada address yang benar.
+<img width="278" alt="image" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/962ee209-2197-4c82-93a7-6ff6239df98f">
+
+   7. Setelah semua telah dikonfigurasi, deploy flow dan dokumentasikan hasil
+outputnya.
 
 ### b. Hasil dan Pembahasan
 Basic flow dimulai dengan memastikan perangkat komputer terpasang node-red kemudian membuat basic flow dan mengonfigurasi node input dan node output.
@@ -15,4 +26,6 @@ mengarahkan data ke destinasi atau tindakan sesuai dengan hasil pemrosesan dalam
 Selanjutnya Klik tombol “Deploy” yang terletak pada pojok kanan atas UI untuk menjalankan program. 
 Hasil dari operasi tersebut akan ditampilkan di Debug Node.
 
-![hasil-1](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/5a6b0faf-fd91-4e76-8e08-c3af1fdea6e3)
+
+![hasil-1](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/9895ba4d-e1a8-41fc-a7ac-6dd8f1197465)
+
