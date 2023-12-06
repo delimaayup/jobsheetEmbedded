@@ -20,9 +20,7 @@
 outputnya.
 
 ### b. Hasil dan Pembahasan
-Basic flow dimulai dengan memastikan perangkat komputer terpasang node-red kemudian membuat basic flow dan mengonfigurasi node input dan node output.
-Node-input pada Node-RED adalah elemen awal dalam alur kerja yang menerima data dari sumber tertentu, sedangkan node-output adalah elemen akhir yang 
-mengarahkan data ke destinasi atau tindakan sesuai dengan hasil pemrosesan dalam alur kerja tersebut.
+Broker MQTT bertindak sebagai perantara antara penerbit (publisher) dan pelanggan (subscriber). Ini memfasilitasi pertukaran pesan dengan mengelola topik (topics) yang diterbitkan dan di-subscribe oleh klien. Sehingga kami dapat mengirim dan menerima data melalui broker MQTT. Percobaan MQTT dapat menyoroti kecepatan, latensi, dan keandalan dalam mentransmisikan pesan antara klien.
 Selanjutnya Klik tombol “Deploy” yang terletak pada pojok kanan atas UI untuk menjalankan program. 
 Hasil dari operasi tersebut akan ditampilkan di Debug Node.
 
