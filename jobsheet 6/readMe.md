@@ -14,7 +14,7 @@ Pada praktikum ini, mahasiswa akan mempelajari prinsip dasar MQTT, termasuk topi
 
 ## Alat dan Bahan
 **Alat dan Bahan** yang digunakan dalam praktikum ini, antara lain:
-1) 1) ESP32
+1) ESP32
 2) Breadboard
 3) Kabel jumper
 4) Potensiometer
