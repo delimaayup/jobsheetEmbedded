@@ -13,11 +13,6 @@ Hasil dari percobaan ini adalah ketika RFID Card pada RFID Reader maka akan munc
 
 https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/4cc46281-a81f-41b4-8995-0269c8951e50
 
-
-## kesimpulan
-
-keterangan
-
 ## Tugas Mengakses Sensor RFID (SPI Communication)
 
 ## a. Source Code
