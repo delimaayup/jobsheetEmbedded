@@ -13,11 +13,6 @@ Hasil dari percobaan ini adalah ketika sensor DHT 11 diakses maka suhu akan naik
 
 https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/aa9d0008-384a-4d9e-80f7-83f4a9875ae6
 
-
-## kesimpulan
-
-keterangan
-
 ## Tugas 1 Mengakses Sensor DHT 11 (Single Wire / BUS)
 
 ## a. Source Code
