@@ -12,10 +12,18 @@
   5. Kemudian, pada terminal Ubuntu, ketikkan perintah sudo ufw allow 1883 untuk membuka port 1883 agar tidak di-block Firewall.
   6. Untuk mencoba publish/mengirim data, klik tombol Publish. Sebelumnya klik tombol Subscribe untuk mengetahui data yang dikirim dapat diterima kembali oleh Clients.
   7. Dokumentasikan hasilnya.
-  8. Kembangkan flow program yang sudah dibuat agar dapat menerima data berupa String, Bolean dan Number. Kemudian tampilkan data tersebut secara terpisah pada masing-masing log.
+
 
 ### b. Hasil dan Pembahasan
 Pada percobaan ke 3 yaitu percobaan Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware hal pertama yang dilakukan adalah mengkonfigurasi dan mengimplementasi Mqtt pada hardware, kemudian melanjutkan ke mengirim data dummy melalui MQTT, kemudian memulai interaksi dengan topik MQTT dan akan divalidasi sebelum klik tombol "Subscribe"
 Selanjutnya Klik tombol “Subscribe” untuk mengetahui data yang dikirim dapat diterima kembali oleh Clients. Kemudian klik tombol Publish
 
 ![hasil-3](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/7954a14e-5d19-408a-8569-70b91b3ae4f0)
+
+### Tugas
+
+Kembangkan flow program yang sudah dibuat agar dapat menerima data berupa String, Bolean dan Number. Kemudian tampilkan data tersebut secara terpisah pada masing-masing log.
+
+![hasil-tugas](https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/aebc2501-c5d7-4dbb-a19b-0a9c6ad78cf8)
+
+Pada bagian ini dikembangkan agar dapat menrima data berupa string, boolean, dan number. Ketiga data tersebut akan ditampilkan pada 3 log yang berbeda. Data yang ditampilkan adalah {"temp":26}, Hello World dan 12.
