@@ -1,4 +1,4 @@
-# A. Regresi Linier
+# D. Regresi Linier
 
 ## 1. Simulasi Pemrosesan Data Menggunakan Regresi Linier
 
