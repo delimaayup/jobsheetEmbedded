@@ -26,6 +26,13 @@ Hasil dari operasi tersebut akan ditampilkan di Debug Node.
 
 ![hasil-2](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/ce02f934-cfe2-4509-967c-7ebfc0868395)
 ### Tugas
+Kembangkan flow program tersebut agar mempunya 2 input (Inject Node). Input pertama seperti contoh, kemudian pisahkan datanya agar bisa tertampil
+dalam log yang berbeda. Sementara itu, Input yang lain menggunakan topic
+kitchen/sensors, dengan jenis sensor flame : 0 , metane : 0, temp : 24, humi :38. Tampilkan datanya dalam log yang berbeda-beda.
+
 ![langkah-2-tugas](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/94e161f9-379a-4322-9bb5-56725231c7f0)
 
 ![hasil-2-tugas](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/a65ae6c2-8ce7-4cdd-9596-38945d252070)
+
+Pada bagian ini, ditambahkan sebuah inject node lagi sehingga menjadi 2 buah inject node. Pada inject node pertama masih berisi topic livingroom/sensors. Pada inject node kedua diberikan topic kitchen/sensors dengan jenis sensor flame : 0 , metane : 0, temp : 24, humi :38.
+Kedua inject node tersebut akan ditampilkan pada debug node yang berbeda, yaitu inject pertama dengan nilai humi "30" akan ditampilkan pada debug 1, sedangkan inject kedua dengan nilai humi "30" akan ditampilkan pada debug 2.
